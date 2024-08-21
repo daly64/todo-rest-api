@@ -10,7 +10,7 @@ import {
 import { TodosService } from './todos.service';
 import { Todo } from './schemas/todo.schema';
 
-@Controller()
+@Controller('todos')
 export class TodosController {
   constructor(private readonly todosService: TodosService) {}
 
