@@ -12,7 +12,7 @@ import { MongooseModule } from '@nestjs/mongoose';
       'mongodb+srv://daly:123123123@cluster0.tunc1.mongodb.net/todo-api',
     ),
   ],
-  controllers: [],
+  controllers: [AppController],
   providers: [AppService],
 })
 export class AppModule {}
